@@ -35,4 +35,4 @@ int main()
 	cin>>n;
 	pattern(n);
 	
-}
+}      
