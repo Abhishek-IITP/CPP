@@ -22,9 +22,9 @@ int main() {
     
     vector<int> arr(n);
     
-    std::cout << "Enter elements: ";
+    cout << "Enter elements: ";
     for (int i = 0; i < n; i++) {
-        std::cin >> arr[i];
+        cin >> arr[i];
     }
     
     set<int> s(arr.begin(), arr.end());
